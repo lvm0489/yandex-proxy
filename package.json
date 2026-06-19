@@ -1,12 +1,7 @@
 {
   "name": "yandex-proxy",
   "version": "1.0.0",
-  "description": "Proxy for Yandex SERP",
-  "main": "api/proxy.js",
-  "scripts": {
-    "start": "node api/proxy.js"
-  },
-  "dependencies": {},
+  "type": "module",
   "engines": {
     "node": "18.x"
   }
