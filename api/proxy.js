@@ -1,4 +1,4 @@
-module.exports = async function handler(request, response) {
+export default async function handler(request, response) {
   const targetUrl = request.query.url;
   
   if (!targetUrl) {
@@ -24,4 +24,4 @@ module.exports = async function handler(request, response) {
   } catch (error) {
     return response.status(500).json({ error: error.message });
   }
-};
+}
